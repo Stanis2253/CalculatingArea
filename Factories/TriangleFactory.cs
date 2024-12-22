@@ -63,7 +63,7 @@ namespace CalculatingArea.Factories
         /// <returns></returns>
         private bool CheckIsRightTriangle()
         {
-            if (GetSumCathetus == GetHypotenuse)
+            if (GetSumCathetus() == GetHypotenuse())
             {
                 return true;
             }
@@ -78,7 +78,7 @@ namespace CalculatingArea.Factories
 
             for (int i = 0; i < SidesList.Length; i++)
             {
-                if (SidesList[i] == SidesList.Max(x => x))
+                if (SidesList[i] != SidesList.Max(x => x))
                 {
                     sumCathetus += Math.Pow(SidesList[i], 2);
                 }

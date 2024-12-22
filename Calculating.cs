@@ -30,7 +30,7 @@ namespace CalculatingArea
             {
                 figure = new CicleFactory(SidesList);
             }
-            if (SidesList.Length == 3)
+            else if (SidesList.Length == 3)
             {
                 figure = new TriangleFactory(SidesList);
             }
