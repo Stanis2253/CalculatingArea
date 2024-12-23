@@ -1,16 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163
+VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingArea", "CalculatingArea\CalculatingArea.csproj", "{3CAC19E8-D9B2-4C65-BE87-868321E1FC7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingArea", "CalculatingArea\CalculatingArea.csproj", "{5D710E9E-B5DD-4274-874A-90F80A98B753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingAreaTest", "CalculatingAreaTest\CalculatingAreaTest.csproj", "{345A7CE1-F6CD-46F1-BA40-9CD17ED44A93}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{DBFB910E-A4B2-442A-A7D2-BFD6C983021F}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Documents\SQL Server Management Studio\Task 2.sql = ..\..\Documents\SQL Server Management Studio\Task 2.sql
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingAreaTest", "CalculatingAreaTest\CalculatingAreaTest.csproj", "{14216440-8226-47A2-99A1-1502B0B2B46A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3CAC19E8-D9B2-4C65-BE87-868321E1FC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CAC19E8-D9B2-4C65-BE87-868321E1FC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CAC19E8-D9B2-4C65-BE87-868321E1FC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CAC19E8-D9B2-4C65-BE87-868321E1FC7A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{345A7CE1-F6CD-46F1-BA40-9CD17ED44A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{345A7CE1-F6CD-46F1-BA40-9CD17ED44A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{345A7CE1-F6CD-46F1-BA40-9CD17ED44A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{345A7CE1-F6CD-46F1-BA40-9CD17ED44A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D710E9E-B5DD-4274-874A-90F80A98B753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D710E9E-B5DD-4274-874A-90F80A98B753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D710E9E-B5DD-4274-874A-90F80A98B753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D710E9E-B5DD-4274-874A-90F80A98B753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14216440-8226-47A2-99A1-1502B0B2B46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14216440-8226-47A2-99A1-1502B0B2B46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14216440-8226-47A2-99A1-1502B0B2B46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14216440-8226-47A2-99A1-1502B0B2B46A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

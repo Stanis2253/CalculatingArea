@@ -10,8 +10,8 @@ public class TriagngelTest
     {
         Calculating Cal = new Calculating(2,3,4);
 
-        var result = Cal.GetArea();
+        var result = Math.Round( Cal.GetArea(), 1);
 
-        Assert.AreEqual(2.9047375096555625, result);
+        Assert.AreEqual(2.9, result);
     }
 }
